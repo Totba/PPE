@@ -1,0 +1,50 @@
+.slider {
+	overflow: hidden;
+	width: 500px;
+	margin: 25px auto;
+}
+.slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 8s slider infinite; /* Animation de 8sec infini */
+}
+.slider figure img {
+	width: 20%;
+	float: left;
+}
+@keyframes slider {
+	0% {
+		transform: translateX(0); /* Position de base est à 0 */
+	}
+	10% {
+		transform: translateX(0); /* Position de base est à 0 */
+	}
+	33% {
+		transform: translateX(-500px);
+	}
+	43% {
+		transform: translateX(-500px);
+	}
+	66% {
+		transform: translateX(-1000px);
+	}
+	76% {
+		transform: translateX(-500px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+	
+}
+.titre {
+	text-align: center;
+	font-size: 26px;
+}
+blockquote {
+	padding: 10px 100px;
+	background-color: #f0f0f0;
+	margin: 10px 20px; /* Ecart entre la zone de texte et les bords de la page */
+	margin-bottom: 40px;
+}

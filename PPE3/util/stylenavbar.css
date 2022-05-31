@@ -1,0 +1,21 @@
+.ImageProfilNavbar {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 54px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.noppading{
+	padding: 0!important;
+}
+
+.horizontalcenter {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.bgcolor {
+	background-color: #f0f0f0;
+}

@@ -1,0 +1,48 @@
+.head {
+	margin-left: 20px;
+}
+
+.content {
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.btnred {
+	border-color: red;
+	min-width: 130px !important;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: red;
+	box-shadow: 0 0 2px 0.1rem red;
+	margin: 6px 4px;
+}
+
+.btnred:hover {
+	box-shadow: 0 0 2px 4px red;
+}
+
+.btngreen {
+	border-color: #00ff00;
+	min-width: 130px!important;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #00ff00;
+	box-shadow: 0 0 2px 0.1rem #00ff00;
+	margin: 6px 4px;
+}
+
+.btngreen:hover {
+	box-shadow: 0 0 2px 4px #00ff00;
+}
+
+@media (min-width: 992px) {
+	.btninline {
+		 display: inline-flex;
+	}
+}
+
+@media (min-width: 0px) {
+	.btninline {
+		 display: auto;
+	}
+}

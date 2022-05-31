@@ -1,0 +1,40 @@
+.blockvoirsalle {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.nomsalle {
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+.btnreserver {
+	font-size: 16px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	border-radius: 25px;
+	height: 40px;
+	border: 0;
+	background-color: #e3e3e3;
+	box-shadow: 0 0 2px 0.1rem #e3e3e3;
+}
+
+.btnreserver:hover {
+	font-size: 18px;
+	box-shadow: 0 0 2px 0.3rem #e3e3e3;
+}
+
+.image {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+

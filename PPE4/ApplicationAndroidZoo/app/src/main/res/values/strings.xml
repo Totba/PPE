@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SIGEAN</string>
+    <string name="Connexion">Connexion</string>
+    <string name="Deconnection">Deconnection</string>
+</resources>

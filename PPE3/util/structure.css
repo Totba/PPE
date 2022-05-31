@@ -1,0 +1,48 @@
+.head {
+	margin-left: 20px;
+}
+
+.content {
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.btnred {
+	border-color: red;
+	min-width: 130px !important;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: red;
+	box-shadow: 0 0 2px 0.1rem red;
+	margin: 6px 4px;
+}
+
+.btnred:hover {
+	box-shadow: 0 0 2px 4px red;
+}
+
+.btnblue {
+	border-color: #0000ff;
+	min-width: 130px!important;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #0000ff;
+	box-shadow: 0 0 2px 0.1rem #0000ff;
+	margin: 6px 4px;
+}
+
+.btnblue:hover {
+	box-shadow: 0 0 2px 4px #0000ff;
+}
+
+@media (min-width: 992px) {
+	.btninline {
+		 display: inline-flex;
+	}
+}
+
+@media (min-width: 0px) {
+	.btninline {
+		 display: auto;
+	}
+}

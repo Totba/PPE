@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-weight: 400;
+	background-color: white;
+}
+.footer {
+	padding: 15px 0; /* Modification écart avec le haut de la page */
+	background-color: #f0f0f0;;
+ 	margin: 0 auto;
+ 	width: 100%;
+}
+.footer .social {
+	text-align: center; /* Alignement des éléments au centre de la page */
+	padding-bottom: 15px; /* Modification écart avec les éléments inférieurs */
+	color: #f0f0f0; /* Changement de couleur du texte */
+}
+.footer .social a {
+	font-size: 24px; /* Modification de la taille des éléments */
+	color: black; 
+	/* border: 1px solid #ccc; /* Caractéristiques de la bordure */    
+	width: 40px; /* Modification largeur élément */
+	height: 40px; /* Modification hauteur élément */
+	line-height: 50px; /* Ecart de hauteur entre les lignes */
+	display: inline-block; /* Mise en place en ligne */
+	text-align: center; /* Texte aligné au centre */
+	border-radius: 50%; /* Bordure */
+	margin: 0 8px; /* Ecart gauche/droite entre les éléments */
+	opacity: 0.75; /* Opacité des éléments */
+}
+.footer .social a:hover {
+	opacity: 1; /* Opacité des éléments */
+}
+.footer ul {
+	margin-top: 0;
+	list-style: none;
+	padding: 0;
+	font-size: 18px; /* Changement de la taille du texte */
+	line-height: 1.6; /* Ecart de hauteur entre les lignes */
+	margin-bottom: 0;
+	text-align: center;
+}
+.footer ul li a {
+	color: inherit; /* Prend la couleur de l'élément parent */
+	text-decoration: none; /* Enlever le soulignage des liens */
+	opacity: 0.8;
+}
+.footer ul li {
+	display: inline-block; /* Disposition en ligne */
+	padding: 0 15px; /* Ecart gauche/droit entre les éléments */
+}
+.footer ul li a:hover {
+	opacity: 1;
+} 
+.footer .copyright {
+	margin-bottom: 0!important;
+	margin-top: 4px; /* Ecart avec l'élément supérieur */
+	text-align: center;
+	font-size: 13px;
+	color: #aaa;
+}
+
+.social {
+	padding: 0!important;
+}

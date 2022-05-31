@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Deconnection"
+        android:title="@string/Deconnection"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/Retour"
+        android:title="Retour"
+        app:showAsAction="ifRoom"/>
+
+</menu>
