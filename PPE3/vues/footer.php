@@ -10,9 +10,9 @@
 	<section class="footer">
 	<?php } ?>
 		<div class="social">
-			<a href="https://www.instagram.com/ericzemmour_/"><i class="fab fa-instagram"></i></a> <!-- Mettre logo Instagram -->
-			<a href="https://twitter.com/ManuelFerraraTV"><i class="fab fa-twitter"></i></a>
-			<a href="https://fr-fr.facebook.com/anais.dufaye.52"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a> <!-- Mettre logo Instagram -->
+			<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+			<a href="https://fr-fr.facebook.com"><i class="fab fa-facebook"></i></a>
 		</div>
 
 		<ul class="liste">
